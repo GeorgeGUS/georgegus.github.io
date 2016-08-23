@@ -45,8 +45,8 @@ html, body, .page-wrap {
   margin-bottom: -130px;
   min-height: 100vh;
   background:
-    linear-gradient(to top, rgba(50, 50, 120, .75), rgba(50, 50, 120, .5)),
-    url("../img/rtrs-main-back.png") top no-repeat;
+    linear-gradient(to top, rgba(50, 50, 120, .8), rgba(65, 65, 120, .6)),
+    url("../img/rtrs-main-back.jpg") top no-repeat;
   background-size: cover;
 }
 
