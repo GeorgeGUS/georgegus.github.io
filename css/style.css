@@ -2,6 +2,20 @@ html, body, .page-wrap {
   height: 100%;
 }
 
+body, a, p {
+  text-decoration: none;
+  font-weight: bold;  
+  color: aliceblue;
+}
+
+a {    
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  background: rgba(220,220,220,.05);
+}
+
 .page-wrap {
   position: relative;
   min-height: 100%;
@@ -30,15 +44,22 @@ html, body, .page-wrap {
 }
 
 .nav-list {
-  margin: 0;
-  padding: 0;
+/*  margin-top: 20px;*/
   text-align: right;
   list-style: none;
+  font-size: 0;
 }
 
-.nav-list__item {
+.nav-list .nav-list__item {
   display: inline-block;
+  font-size: 15px;
+}
+
+.nav-list a {
   padding: 20px 15px;
+  line-height: 4;
+  text-transform: uppercase;
+  color: #1b75e3;
 }
 
 #home {
@@ -63,10 +84,10 @@ html, body, .page-wrap {
   margin: 0 auto;
   font-size: 90px;
   font-weight: bold;
-  color: #58f;
+  color: rgba(27, 117, 227, .8);
   text-shadow: 
-    0 10px 20px #111,
-    -1px -1px 2px #aaa;
+    0 5px 10px rgba(10, 10, 10, .5),
+    -1px -1px 1px rgba(100, 200, 200, .6);
 }
 
 .greeting__title .big-text {
@@ -78,4 +99,15 @@ html, body, .page-wrap {
 .main-footer {
   position: relative;
   text-align: center;
+  color: #F1F1F1;
+  text-shadow: 0 1px 2px rgba(10, 10, 10, .5);
+}
+
+.main-footer .email {
+  color: #7B68EE;
+}
+
+.main-footer a:hover {
+  color: #FE0C48;
+  cursor: pointer;
 }
