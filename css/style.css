@@ -83,7 +83,7 @@ transparent 50%, rgba(0, 0, 0, .4) 50%
 
 #home::after {
   content: "";
-  background: url(../img/rtrs-main-back.jpg) top no-repeat;
+  background: url(../img/rtrs-main-back_.jpg) top no-repeat;
   background-size: cover;
   opacity: 0.13;
   top: 0;
