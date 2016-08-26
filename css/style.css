@@ -1,3 +1,7 @@
+.animated {
+  transition: all 2s ease-in;
+}
+
 html, body, .page-wrap {
   height: 100%;
   background: #7B68EE;
