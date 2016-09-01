@@ -1,19 +1,28 @@
 {
   "name": "georgegus.github.io",
   "version": "1.0.0",
-  "description": "My first hosting=)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "My first hosting=) https://georgegus.github.io/",
+  "main": "gulpfile.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GeorgeGUS/georgegus.github.io.git"
   },
-  "author": "",
+  "author": "GeorgeGUS",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GeorgeGUS/georgegus.github.io/issues"
   },
-  "homepage": "https://github.com/GeorgeGUS/georgegus.github.io#readme"
+  "homepage": "https://github.com/GeorgeGUS/georgegus.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9"
+  }
 }
