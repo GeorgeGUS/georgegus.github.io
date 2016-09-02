@@ -131,6 +131,11 @@ a {
   justify-content: space-around;
 }
 
+.myprojects__item img {
+/*  border: 1px solid #ccc;*/
+  box-shadow: 0 7px 17px -7px black;
+}
+
 .main-footer {
   padding-top: 15px;
   padding-bottom: 10px;
