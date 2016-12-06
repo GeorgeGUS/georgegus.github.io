@@ -1,3 +1,2 @@
 # georgegus.github.io
-My first hosting=)
-https://georgegus.github.io/
+[This is my little resume;)](https://georgegus.github.io/)
