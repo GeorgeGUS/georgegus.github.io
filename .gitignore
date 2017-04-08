@@ -1,0 +1,7 @@
+# project files
+*.psd
+
+# project folders
+.idea/
+node_modules/
+build/
