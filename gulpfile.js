@@ -15,6 +15,7 @@ var rename = require("gulp-rename");
 var server = require("browser-sync").create();
 var run = require("run-sequence");
 var del = require("del");
+var ghPages = require('gulp-gh-pages');
 
 gulp.task("style", function() {
   gulp.src("sass/style.scss")
@@ -103,4 +104,9 @@ gulp.task("copy", function() {
 
 gulp.task("clean", function() {
   return del("build");
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./build/**/**/*')
+    .pipe(ghPages());
 });
