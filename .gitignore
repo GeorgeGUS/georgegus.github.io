@@ -1,0 +1,9 @@
+# project files
+*.psd
+*.ttf
+npm-debug.log
+
+# project folders
+.idea/
+node_modules/
+build/

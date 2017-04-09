@@ -1,0 +1,14 @@
+/*---------________GLOBAL________---------*/
+@import "global/normalize.scss";
+@import "global/variables.scss";
+@import "global/buttons.scss";
+@import "fonts/fonts.scss";
+@import "global/scaffolding.scss";
+
+
+/*---------________BLOCKS________---------*/
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/greeting.scss";
+@import "blocks/main-content.scss";
+@import "blocks/main-footer.scss";
