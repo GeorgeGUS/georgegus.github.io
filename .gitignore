@@ -1,7 +1,6 @@
 # project files
 *.psd
 *.ttf
-*.txt
 npm-debug.log
 
 # project folders
