@@ -1,0 +1,10 @@
+# project files
+*.psd
+*.ttf
+npm-debug.log
+
+# project folders
+.idea/
+.publish/
+node_modules/
+build/
