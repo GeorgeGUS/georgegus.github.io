@@ -7,4 +7,3 @@ npm-debug.log
 .idea/
 .publish/
 node_modules/
-build/
